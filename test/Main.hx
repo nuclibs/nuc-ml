@@ -1,6 +1,6 @@
 package;
 
-import nml.Nml;
+import nucml.NucML;
 
 
 class Main {
@@ -19,8 +19,8 @@ class Main {
 		mapValues: {name: 'Andrei', age: 32}
 		";
 
-		var cfg = Nml.parse(txt);
-		trace(cfg);
+		var data = NucML.parse(txt);
+		trace(data);
 	}
 
 }

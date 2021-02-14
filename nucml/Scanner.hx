@@ -1,8 +1,8 @@
-package nml;
+package nucml;
 
-import nml.Token;
+import nucml.Token;
 
-@:access(nml.Nml)
+@:access(nucml.NucML)
 class Scanner {
 
 	var source:String;
@@ -54,7 +54,7 @@ class Scanner {
 				} else if(isAlpha(c)) {
 					addIndetifier();
 				} else {
-					Nml.error(line, column, 'Unexpected character: ${String.fromCharCode(c)}');
+					NucML.error(line, column, 'Unexpected character: ${String.fromCharCode(c)}');
 				}
 		}
 	}
@@ -66,7 +66,7 @@ class Scanner {
 		}
 		
 		if(isAtEnd()) {
-			Nml.error(line, column, "Unterminated string.");
+			NucML.error(line, column, "Unterminated string.");
 			return;
 		}
 		

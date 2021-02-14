@@ -1,8 +1,8 @@
-package nml;
+package nucml;
 
-import nml.Token;
+import nucml.Token;
 
-@:access(nml.Nml)
+@:access(nucml.NucML)
 class Parser {
 
 	var tokens:Array<Token>;
@@ -128,7 +128,7 @@ class Parser {
 	}
 
 	function error(token:Token, message:String) { 
-		Nml.parseError(token, message);
+		NucML.parseError(token, message);
 		Sys.exit(1);
 	}
 }

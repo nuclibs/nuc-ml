@@ -1,9 +1,9 @@
-package nml;
+package nucml;
 
-import nml.Token;
+import nucml.Token;
 
 
-class Nml {
+class NucML {
 
 	static public function parse(document:String):Dynamic {
 		var scanner = new Scanner(document);

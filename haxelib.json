@@ -1,6 +1,6 @@
 {
-	"name": "nml",
-	"url": "https://github.com/denuca/nml",
+	"name": "nucml",
+	"url": "https://github.com/denuca/nucml",
 	"license": "MIT",
 	"tags": ["language","minimal","config"],
 	"description": "nuc minimal language",
