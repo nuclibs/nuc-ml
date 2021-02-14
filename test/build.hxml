@@ -1,0 +1,6 @@
+-main Main
+
+-lib nml
+
+-neko build/run.n
+-dce full

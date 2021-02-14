@@ -1,0 +1,10 @@
+{
+	"name": "nml",
+	"url": "https://github.com/denuca/nml",
+	"license": "MIT",
+	"tags": ["language","minimal","config"],
+	"description": "nuc minimal language",
+	"version": "0.0.1",
+	"releasenote": "",
+	"contributors": ["RudenkoArts"]
+}
