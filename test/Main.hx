@@ -2,11 +2,9 @@ package;
 
 import nucml.NucML;
 
-
 class Main {
 
 	static public function main() {
-
 		var txt = "
 		<module>
 		boolTrue: true
